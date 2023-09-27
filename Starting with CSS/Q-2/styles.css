@@ -1,0 +1,42 @@
+/*BEM - Block Element Modifier*/
+
+
+/* Block */
+.bharat{
+   text-align: center;
+    border:2px solid red;
+    background-color: bisque;
+    font-size: 20px;
+}
+/* Element  */
+/* Element ND is indside the Block Bharat */
+.bharat__ND{
+    /* Styling for the New delhi (element) */
+    color:rgb(222, 154, 150);
+    text-shadow:2px 2px 2px black;
+    background-color: blue;
+
+}
+/* Element */
+/* Element WB is indside the Block Bharat */
+.bharat__WB{
+     /* Styling for the West Bengal (element) */
+    color:rgb(222, 154, 150);
+    text-shadow:2px 2px 2px black;
+    background-color: blue;
+}
+/* Block Element*/
+/* Element UP is indside the Block Bharat */
+.bharat__UP{
+     /* Styling for the Uttar Pradesh  (element) */
+    color:rgb(222, 154, 150);
+    text-shadow:2px 2px 2px black;
+    background-color: blue;
+    }
+    /* Block Element Modifier */
+    /* Modifier is indside the Eement ND and Block Bharat */
+.bharat__ND--capital{
+     /* Styling for the New delhi is capital of India (Modifier) */
+    color:green;
+    text-decoration-line:underline;
+}

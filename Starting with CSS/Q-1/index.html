@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Type of using CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- rel is a relation -->
+    <style>
+        .internal{
+            color:rgb(76, 251, 7);
+        }
+        .p{
+            color:red;
+        }
+        .h1{
+            color:rgb(147, 5, 248);
+        }
+    </style>
+</head>
+<!-- Q-1 Create a simple page with some div tags and show different ways to add css
+as well as what happens when you target the same elements with inline, internal, external css also, utilize comments in the project where required. -->
+<body>
+    <!-- 3 type of css 
+    1-inline
+    2-internal
+    3- extarnal-->
+    <div>
+      <!-- inline css  -->
+      <h1 style="color:rgb(200, 0, 255);">Inline css is easy way to add css, this css don't need any class and id.</h1>
+   </div>
+
+    <div class="internal">
+        <!-- internal css -->
+        <h1> Internal css is second type of using css, where we use class and id to select a particular element. We use this tag inside the head.</h1>
+    </div>
+    <div class="external">
+        <!-- external css -->
+        <h1> External css is third type of using css, where we use class and id to select a particular element. We use this tag out side of our html tag,
+            and creat a perticular file wich is style.css,
+            but to make this process add a link html with css use link tag inside the head.</h1>
+    </div>
+<!-- Now we a element and see which is work in same time -->
+      <!-- inline vs internal vs external  -->
+ <div class="p">
+    <p style="color:blue">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, magnam fugit dolorem expedita voluptate cupiditate earum? Adipisci rerum inventore quasi vitae harum odio repellat.
+         <!-- won - inline -->
+    </p>
+</div>
+  
+     <div class="h1">
+          <!-- internal vs external  -->
+          <h1>
+            Internal Vs External
+          </h1>
+     </div>
+      <!-- we see that at first worked inline than second Internal than third external. -->
+
+
+</body>
+</html>
